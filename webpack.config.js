@@ -24,15 +24,22 @@ module.exports = {
     hot: true,
     inline: true,
     progress: true,
-  }，
+  },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.css$/,
-        loaders: ['style', 'css'],
+        use: [
+          { loader:'style-loader' },
+          { loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          }
+        ],
         include: APP_PATH
       }
     ]
-  }
+  },
 }
