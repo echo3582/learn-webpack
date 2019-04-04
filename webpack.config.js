@@ -58,6 +58,13 @@ module.exports = {
         ],
         include: APP_PATH
       },
+
+      {
+        test: /\.jpg$/,
+        use: [
+          { loader: 'url-loader' },
+        ]
+      },
     ]
   },
 }
