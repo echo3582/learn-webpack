@@ -65,6 +65,19 @@ module.exports = {
           { loader: 'url-loader' },
         ]
       },
+
+      {
+        test: /\.js$/,
+        use: [
+          {
+            loader: 'babel-loader',
+          }
+        ],
+        include: APP_PATH,
+      },
+
+
+
     ]
   },
 }
