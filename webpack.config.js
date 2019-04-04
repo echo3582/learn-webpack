@@ -39,7 +39,25 @@ module.exports = {
           }
         ],
         include: APP_PATH
-      }
+      },
+
+      {
+        test: /\.scss$/,
+        use: [
+          { loader:'style-loader' },
+          { loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          },
+          { loader: 'sass-loader',
+            options: {
+              modules: true
+            }
+          }
+        ],
+        include: APP_PATH
+      },
     ]
   },
 }
