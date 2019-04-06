@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\echo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react react-dom --save
+
+PATH: 
+  C:\Users\echo\bin;E:\mine\Udacity-GitHub\GitHub\Git\mingw64\bin;E:\mine\Udacity-GitHub\GitHub\Git\usr\local\bin;E:\mine\Udacity-GitHub\GitHub\Git\usr\bin;E:\mine\Udacity-GitHub\GitHub\Git\usr\bin;E:\mine\Udacity-GitHub\GitHub\Git\mingw64\bin;E:\mine\Udacity-GitHub\GitHub\Git\usr\bin;C:\Users\echo\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;D:\imageMagick\ImageMagick-7.0.7-Q16;C:\Program Files\ImageMagick-7.0.7-Q16;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\iFLYTEK\VoiceAssistant\SpeechPlusRuntime;C:\Program Files (x86)\Lenovo\Voice SDK;C:\HashiCorp\Vagrant\bin;E:\mine\Udacity-GitHub\GitHub\Git\mingw64\libexec\git-core;E:\mine\Udacity-GitHub\GitHub\Git\mingw64\bin;C:\Program Files\OpenVPN\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Sublime Text 3;C:\Program Files\nodejs;C:\Gradle\gradle-4.10.2-all\gradle-4.10.2\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;D:\rubyinstaller\Ruby26\bin;C:\Users\echo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\echo\AppData\Local\atom\bin;C:\Users\echo\AppData\Local\Microsoft\WindowsApps;C:\Users\echo\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_191;E:\mine\Udacity-GitHub\GitHub\Git\usr\bin\vendor_perl;E:\mine\Udacity-GitHub\GitHub\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\webpackPractice\react\node_modules\node-sass\vendor\win32-x64-57\binding.node'
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "@babel/cli": "^7.4.3",
+      "@babel/core": "^7.4.3",
+      "@babel/node": "^7.2.2",
+      "@babel/preset-env": "^7.4.3",
+      "@babel/preset-react": "^7.0.0",
+      "@babel/register": "^7.4.0",
+      "bootstrap": "^4.0.0-alpha.2",
+      "html-webpack-plugin": "^3.2.0",
+      "sass-loader": "^7.1.0",
+      "webpack": "^4.29.6",
+      "webpack-cli": "^3.3.0",
+      "webpack-dev-server": "^3.2.1"
+    },
+    "dependencies": {
+      "babel-loader": "^8.0.5",
+      "css-loader": "^2.1.1",
+      "style-loader": "^0.23.1"
+    },
+    "scripts": {
+      "dev": "webpack-dev-server --progress --profile --colors --hot",
+      "build": "webpack --progress --profile --colors",
+      "test": "karma start"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
